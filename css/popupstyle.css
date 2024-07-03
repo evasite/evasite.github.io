@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .slider-container {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    height: 735px;
+  }
+  
+  .slide {
+    display: none;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .controls {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .prev-btn,
+  .next-btn {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0 10px;
+  }
+  
+  .prev-btn:hover,
+  .next-btn:hover {
+    background: #555;
+  }
