@@ -294,7 +294,7 @@ span{
     max-width: 100%;
     overflow: hidden;
     height: 735px;
-    background: rgba(0, 0, 0, 0.284);
+    background: rgba(0, 0, 0, 0.1);
 }
 .bannertext{
     margin: auto;
@@ -468,7 +468,7 @@ span{
     max-width: 100%;
     overflow: hidden;
     height: 735px;
-    background: rgba(0, 0, 0, 0.284);
+    background: rgba(0, 0, 0, 0.1);
 }
 .about{
     background-color: var(--mediumdarkcolor);
@@ -862,6 +862,7 @@ span{
 .blogs p{
     padding-left: 20px;
     text-align: left;
+    margin-bottom: 30px;
 }
 .blogpara{
     text-indent: 50px;
