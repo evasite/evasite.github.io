@@ -854,6 +854,8 @@ span{
 .blog-title{
     font-family: heading;
     font-size: 22px;
+    margin-top: -50px;
+    margin-bottom: 30px;
 }
 .blogs img{
     width: 100%;
