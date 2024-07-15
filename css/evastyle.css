@@ -264,7 +264,7 @@ span{
     position: relative;
     display: flex;
     align-items: center;
-    background: #00000015;
+    background: #00000020;
     z-index: 12;
 }
 .video{
@@ -294,7 +294,7 @@ span{
     max-width: 100%;
     overflow: hidden;
     height: 735px;
-    background: rgba(0, 0, 0, 0.15);
+    background: rgba(0, 0, 0, 0.284);
 }
 .bannertext{
     margin: auto;
@@ -452,7 +452,7 @@ span{
 /* ---------------------footer end here------------------------------- */
 /* ---------------------about page start here------------------------------- */
 .abbanner{
-    /* background: url(../images/desktop\ \(1\).jpg); */
+    background: url(../images/desktop\ \(1\).jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -462,8 +462,6 @@ span{
     position: relative;
     display: flex;
     align-items: center;
-    width: 100%;
-    max-width: 100%;
 }
 .abbanner .container{
     z-index: 22;
@@ -474,7 +472,7 @@ span{
     max-width: 100%;
     overflow: hidden;
     height: 735px;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.284);
 }
 .about{
     background-color: var(--mediumdarkcolor);
@@ -1289,20 +1287,6 @@ span{
     .srbannertext{
         margin-top: -450px;
     }
-    .extra{
-        top: 1210px;
-        left: 540px;
-    }
-    .blogbox-over{
-        height: 195px;
-        width: 350px;
-        top: 1240px;
-        left: 510px;
-    }
-    .ExploreMore{
-        top: 1460px;
-        left: 630px;
-    }
 }
 @media(max-width: 940px){
     .navlink{
@@ -1316,29 +1300,11 @@ span{
         margin-left: 35px;
     }
 }
-@media(max-width: 906px){
-    .column+.column{
-        margin-left: 40px;
-    }
-    .firstrow{
-        padding-left: 0px;
-    }
-    .extra{
-        top: 1210px;
-        left: 450px;
-    }
-    .blogbox-over{
-        height: 195px;
-        width: 350px;
-        top: 1240px;
-        left: 480px;
-    }
-    .ExploreMore{
-        top: 1460px;
-        left: 600px;
-    }
-}
 @media(max-width: 855px){
+    .navlink{
+        margin-left: 30px;
+        font-size: 16px;
+    }
     .logo{
         width: 10%;
     }
@@ -1346,57 +1312,32 @@ span{
     .navlink{
         margin-left: 35px;
     }
-}
-@media(max-width: 855px){
-    .navlink{
-        margin-left: 30px;
-        font-size: 16px;
+    .blogs p{
+        padding-left: 0px;
+        text-align: center;
     }
+    .box a{
+        text-align: center !important;
+        margin-left: 0;
+        margin: auto;
+        padding: 10px 0;
+    }
+    .blogs .box{
+        text-align: center;
+    }
+    .blog-title{
+        margin-top: 20px;
+    }
+    .blog1hamburger p, .blog2hamburger p, .blog3hamburger p, 
+.blog4hamburger p, .blog5hamburger p, .blog6hamburger p, 
+.blog7hamburger p, .blog8hamburger p, .blog9hamburger p{
+    margin-top: 10px;
+}
 }
 @media(max-width: 840px){
-    .bannerblog .col .row{
-        flex-wrap: nowrap;
-    }
-    .bannerblog {
-        height: auto;
-        padding-bottom: 0px;
-    }
     .subscribe .col{
         width: 80%;
         margin: auto;
-    }
-    .blogbox{
-        height: 155px;
-        width: 300px;
-    }
-    .column+.column{
-        margin-left: unset;
-    }
-    .bannerblog .row{
-        justify-content: space-between;
-    }
-    .firstrow{
-        justify-content: unset;
-        padding-left: 0px;
-    }
-    .blogbox-over{
-        height: 155px;
-        width: 300px;
-        top: 1175px;
-        left: 400px;
-    }
-    .ExploreMore{
-        font-size: 15px;
-        color: black;
-        font-weight: 900;
-        font-family: heading;
-        position: absolute;
-        top: 1360px;
-        left: 520px;
-    }
-    .extra{
-        top: 1155px;
-        left: 420px;
     }
 }
 @media(max-width: 769px){
@@ -1750,50 +1691,7 @@ span{
     }
     /* --------------------services page -------------------------------*/
     /* --------------------blog page -------------------------------*/
-    .bannerblog .col .row{
-        flex-wrap: nowrap;
-    }
-    .bannerblog {
-        height: auto;
-        padding-bottom: 0px;
-    }
-    .subscribe .col{
-        width: 80%;
-        margin: auto;
-    }
-    .blogbox{
-        height: 155px;
-        width: 300px;
-    }
-    .column+.column{
-        margin-left: unset;
-    }
-    .bannerblog .row{
-        justify-content: space-between;
-    }
-    .firstrow{
-        justify-content: unset;
-        padding-left: 0px;
-    }
-    .blogbox-over{
-        height: 155px;
-        width: 300px;
-        top: 1175px;
-        left: 400px;
-    }
-    .ExploreMore{
-        font-size: 15px;
-        color: black;
-        font-weight: 900;
-        font-family: heading;
-        position: absolute;
-        top: 1360px;
-        left: 520px;
-    }
-    .extra{
-        top: 1155px;
-        left: 420px;
-    }
+    
     
     /* --------------------blog page -------------------------------*/
     .bannercareer{
@@ -1998,46 +1896,6 @@ span{
     }
     .bannerblog h2{
         text-align: center;
-    }
-    .bannerblog .col .row{
-        flex-wrap: wrap;
-    }
-    .bannerblog {
-        height: auto;
-        padding-bottom: 0px;
-    }
-    .bannerblog .blogbox{
-        margin: auto;
-        margin-top: 10px;
-        width: 100%;
-        height: 200px;
-    }
-    .blogbox-over{
-        height: 155px;
-        top: 1880px;
-        left: 40px;
-        position: absolute;
-        width: 80%;
-        height: 180px;
-    }
-    .ExploreMore{
-        font-size: 15px;
-        color: black;
-        font-weight: 900;
-        font-family: heading;
-        position: unset;
-        padding-top: 50px;
-    }
-    .extra{
-        top: 1840px;
-        left: 20px;
-        height: 200px;
-        width: 50%;
-        position: unset;
-    }
-    .colbog{
-        display: flex;
-        flex-direction: column;
     }
     
     .bannercareer{
