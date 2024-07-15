@@ -452,10 +452,6 @@ span{
 /* ---------------------footer end here------------------------------- */
 /* ---------------------about page start here------------------------------- */
 .abbanner{
-    background: url(../images/desktop\ \(1\).jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 735px;
     overflow: hidden;
     box-shadow: 0 0 15px black;
