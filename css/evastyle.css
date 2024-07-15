@@ -823,136 +823,162 @@ span{
 .bannerblog{
     height: auto;
     background-position: right;
-    background: linear-gradient(#fcfcfca0, rgba(255, 255, 255, 0.879)), url(../images/desktop-\(2\).jpg);
+    background: linear-gradient(#51515118, rgba(60, 60, 60, 0.149)), url(../images/desktop\ \(5\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 50px;
     overflow: hidden;
-}
-.bannerblog .container{
-    text-align: center;
+    display: flex;
+    height: 735px;
 }
 .bannerblog h2{
-    color: black;
-    text-transform: none;
+    color: white;
 }
-.recenttext{
-    color: rgb(57, 57, 57);
-    font-family: heading;
+.blogs{
+     padding: 70px 0;
+}
+.blogs h3{
+    padding-bottom: 20px;
     font-size: 25px;
-    padding-bottom: 30px;
+    font-family: heading;
 }
-.firstrow{
-    justify-content: unset;
-    padding-left: 50px;
+.blogs a{
+    text-decoration: none;
+    font-weight: 800;
+    font-family: heading;
+    color: black;
+    text-align: left;
 }
-.blogvideo{
-    width: 100%;
-    z-index: 333;
-    transition: 500ms;
-}
-.bannerblog .colbog{
-    padding-bottom: 50px;
-}
-.blogvideo:hover{
-    scale: 110%;
-}
-.morecolumn .row{
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.blogbox{
-    overflow: hidden;
-    margin: 5px;
-    border: 1px solid rgb(65, 65, 65);
-    border-radius: 8px;
-    height: 195px;
-    width: 350px;
-    display: flex;
-    align-items: center;
-    text-shadow: 0 0 5px black;
-    overflow: hidden;
-    z-index: 55;
-    position: relative;
-}
-.column+.column{
-    margin-left: 80px;
-}
-.morecolumn .column+.column{
-    margin-left: unset;
+.box a{
+    margin-left: 20px;
+    margin-top: 50px;
 }
 .blog-title{
-    font-size: 15px;
-    color: black;
-    font-weight: 900;
     font-family: heading;
+    font-size: 22px;
 }
-.blog-by{
-    padding-bottom: 20px;
+.blogs img{
+    width: 100%;
 }
-.blog-date, .blog-by{
-    font-size: 15px;
+.blogs p{
+    padding-left: 20px;
+    text-align: left;
 }
-.blogbox-over{
-    overflow: hidden;
-    margin: 5px;
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 8px;
-    height: 195px;
-    width: 350px;
-    position: absolute;
-    position: absolute;
-    top: 1240px;
-    left: 600px;
-    display: flex;
-    align-items: center;
-    text-shadow: 0 0 5px black;
-    overflow: hidden;
-    z-index: 66;
-    box-shadow: 0 0 10px black;
+.blogpara{
+    text-indent: 50px;
 }
-.ExploreMore{
-    font-size: 15px;
-    color: black;
-    font-weight: 900;
-    font-family: heading;
-    position: absolute;
-    top: 1460px;
-    left: 730px;
+.blogs .box{
+    width: 100%;
 }
-.morecheck{
+.blog1, .blog2, .blog3, .blog4, .blog5, .blog6, .blog7, .blog8, .blog9{
+    background-color: #00cfc136;
+    padding: 20px;
+    border-radius: 7px;
+    transition: .5s;
+}
+.blog1check, .blog2check, .blog3check, .blog4check, .blog5check, .blog6check, .blog7check, .blog8check, .blog9check{
     display: none;
+    margin: auto;
 }
-.morehamburger{
+.blog1hamburger p, .blog2hamburger p, .blog3hamburger p, 
+.blog4hamburger p, .blog5hamburger p, .blog6hamburger p, 
+.blog7hamburger p, .blog8hamburger p, .blog9hamburger p{
+    padding-left: 0;
+    text-align: center;
+    margin: auto;
+    font-family: heading;
+    margin-top: -30px;
     cursor: pointer;
+    font-style: normal;
 }
-.morecolumn{
-    display: none;
+.moreblog1 p, .moreblog2 p, .moreblog3 p, 
+.moreblog4 p, .moreblog5 p, .moreblog6 p, 
+.moreblog7 p, .moreblog8 p, .moreblog9 p{
+    padding-left: 0;
 }
-.morecheck:checked~.morecolumn{
+.moreblog1, .moreblog2, .moreblog3, 
+.moreblog4, .moreblog5, .moreblog6, 
+.moreblog7, .moreblog8, .moreblog9{
+ display: none;
+}
+.blogcontent{
+    margin-bottom: 20px;
+}
+.blog1check:checked~.moreblog1{
     display: block;
 }
-.column{
-    position: relative;
+.blog2check:checked~.moreblog2{
+    display: block;
 }
-.extra{
-    position: absolute;
-    top: 1210px;
-    left: 570px;
+.blog3check:checked~.moreblog3{
+    display: block;
 }
+.blog4check:checked~.moreblog4{
+    display: block;
+}
+.blog5check:checked~.moreblog5{
+    display: block;
+}
+.blog6check:checked~.moreblog6{
+    display: block;
+}
+.blog7check:checked~.moreblog7{
+    display: block;
+}
+.blog8check:checked~.moreblog8{
+    display: block;
+}
+.blog9check:checked~.moreblog9{
+    display: block;
+}
+.moreblog1 h4, .moreblog2 h4, .moreblog3 h4, 
+.moreblog4 h4, .moreblog5 h4, .moreblog6 h4, 
+.moreblog7 h4, .moreblog8 h4, .moreblog9 h4{
+    font-family: heading;
+    font-size: 22px;
+    padding-top: 30px;
+}
+.moreblog1 ul, .moreblog2 ul, .moreblog3 ul, 
+.moreblog4 ul, .moreblog5 ul, .moreblog6 ul, 
+.moreblog7 ul, .moreblog8 ul, .moreblog9 ul{
+    margin-left: 20px;
+    padding: 20px;
+}
+.subheading{
+    font-weight: 800;
+    font-family: heading;
+    color: black;
+}
+.explorecheck{
+    display: none;
+}
+.explorehamburger p{
+    padding-left: 0;
+    text-align: center;
+    margin: auto;
+    font-family: heading;
+    cursor: pointer;
+    font-style: normal;
+    color: var(--keycolor);
+    text-shadow: 0 0 0.5x black;
+    padding-bottom: 20px;
+}
+.exploreblogs{
+    display: none;
+}
+.explorecheck:checked~.exploreblogs{
+    display: block;
+}
+
 /* ---------------------blogsubscribe start here------------------------------- */
 .subscribe{
-    background: url(../images/desktop\ \(5\).jpg);
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 735px;
     display: flex;
     align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: url(../images/desktop-\(2\).jpg);
     padding: 0px;
-}
-.subscribe .row{
-    margin-top: 100px;
+    padding: 70px 0;
 }
 .subscribe .col{
     background-color: rgba(255, 255, 255, 0.208);
@@ -965,7 +991,7 @@ span{
 .subscribe h2{
     text-transform: none;
     color: var(--secondarycolor);
-    text-shadow: 0 0 2px black;
+    text-shadow: 0 0 2px rgb(255, 255, 255);
     font-family: base;
     font-weight: 800;
     padding-bottom: 10px;
