@@ -2019,14 +2019,6 @@ span{
         resize: vertical;
         max-height: 200px;
     }
-    .sendbtn{
-        margin: auto;
-        text-transform: uppercase;
-        padding: 10px 20px;
-        border-radius: 4px;
-        border: none;
-        margin-top: 20px;
-    }
     .footer{
         color: rgb(255, 255, 255);
     }
