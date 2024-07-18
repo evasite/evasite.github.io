@@ -1982,11 +1982,11 @@ span{
     .cntactbanner{
         padding-top: 150px;
         height: 735px auto;
-        background: url(../images/phone2.jpg);
-        background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         overflow: hidden;
+        background: url('../images/desktop-\(7\).jpg');
+        background-position: left;
     }
     .form{
         padding: 50px;
@@ -2021,8 +2021,6 @@ span{
     }
     .sendbtn{
         margin: auto;
-        background-color: var(--secondarycolor);
-        color: white;
         text-transform: uppercase;
         padding: 10px 20px;
         border-radius: 4px;
