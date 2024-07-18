@@ -42,10 +42,12 @@
         <div class="container">
             <div class="row">
                  <div class="col">
-                    <form action="contact.php" method="POST" class="form">
+                    <form action="https://api.web3forms.com/submit" method="POST" class="form">
                         <h2>Get in Touch</h2>
                         <p>Explore our Instagram page or contact our team.</p>
+                        <input type="hidden" name="access_key" value="d427280e-6d7f-4ece-a85a-ab7ab5e6d60d">
                         <input type="text" name="emailadress" class="emailadress" placeholder="Email address*"><br>
+                        <input type="text" name="emailadress" class="emailadress" placeholder="Mobile number*"><br>
                         <textarea name="message" id="message" class="message" placeholder="What can we help you with?"></textarea><br>
                         <div class="buttonarea">
                             <input type="submit" id="send" value="send" class="sendbtn">
