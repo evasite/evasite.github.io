@@ -564,17 +564,14 @@ span{
     transition: 1s !important;
     background-color: #00000020;
     border-radius: 10px;
-    width: 335px;
-    margin: 5px auto;
+    width: 100%;
+    margin: 10px;
 }
 .team .col:hover {
     box-shadow: 0 0 10px rgb(0, 0, 0);
     scale: 90% !important;
     z-index: 555;
     background: var(--secondarycolor);
-}
-.team .row:last-child .col{
-    width: 265px;
 }
 .team h2, p{
     color: rgb(0, 0, 0);
@@ -616,23 +613,11 @@ span{
     padding-top: 5px;
 }
 .team a img{
-    width: 100%;
+    width: 70%;
     padding: 0 5px;
-}
-.team .row:last-child .col a{
-    width: 25%;
 }
 .teampara{
     padding-bottom: 20px;
-}
-.team .row:last-child .col p{
-    font-size: 15px;
-}
-.sidharthname{
-    padding-top: 0px;
-}
-.sidharthrole{
-    padding-bottom: 70px;
 }
 /* ---------------------about page end here------------------------------- */
 /* ---------------------service page start here------------------------------- */
@@ -1759,6 +1744,16 @@ span{
     .navlist{
         margin-left: 100px;
     }
+    .video{
+        display: none;
+    }
+    .banner{
+        background: url(../images/phone\ \(6\).jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 735px;
+    }
     .abbannertext h1{
         font-size: 28px;
     }
@@ -1842,6 +1837,12 @@ span{
     }
     .abbannertext h1{
         font-size: 20px;
+    }
+    .abbanner{
+        background: url(../images/phone\ \(1\).jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     .abimg2{
         left: 90px;
