@@ -1753,14 +1753,7 @@ span{
     .navlist{
         margin-left: 100px;
     }
-    .video{
-        display: none;
-    }
     .banner{
-        background: url(../images/phone\ \(6\).jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
         height: 735px;
     }
     .abbannertext h1{
@@ -1846,12 +1839,6 @@ span{
     }
     .abbannertext h1{
         font-size: 20px;
-    }
-    .abbanner{
-        background: url(../images/phone\ \(1\).jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
     }
     .abimg2{
         left: 90px;
