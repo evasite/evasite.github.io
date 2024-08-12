@@ -933,6 +933,7 @@ span{
     font-weight: 800;
     font-family: heading;
     color: black;
+    padding-top: 10px;
 }
 .explorecheck{
     display: none;
