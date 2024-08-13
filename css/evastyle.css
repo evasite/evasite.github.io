@@ -834,7 +834,7 @@ span{
 }
 .blog-title{
     font-family: heading;
-    font-size: 22px;
+    font-size: 20px;
     margin-top: -50px;
     margin-bottom: 30px;
 }
@@ -843,20 +843,33 @@ span{
 }
 .blogs img{
     width: 100%;
+    border: 1px solid black;
 }
 .blogs p{
     padding-left: 20px;
     text-align: left;
     margin-bottom: 30px;
 }
+.summery{
+    font-size: 17px;
+    color: black;
+    font-family: heading;
+}
 .blogs .box{
     width: 100%;
 }
+.blogs .box:last-child{
+    background-color: #ffcc74;
+    padding: 10px;
+    margin-left: 15px;
+    border-radius: 8px;
+}
 .blog1, .blog2, .blog3, .blog4, .blog5, .blog6, .blog7, .blog8, .blog9{
-    background-color: #00cfc136;
+    background-color: #00cfc13c;
     padding: 20px;
     border-radius: 7px;
     transition: .5s;
+    box-shadow: 0 0 4px black;
 }
 .blog1check, .blog2check, .blog3check, .blog4check, .blog5check, .blog6check, .blog7check, .blog8check, .blog9check{
     display: none;
