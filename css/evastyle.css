@@ -171,7 +171,7 @@ span{
 .navcontainer{
     width: 90%;
     margin: auto;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 .nav .row{
     align-items: center;
@@ -183,7 +183,7 @@ span{
     transform: translateY(-200px);
     animation-fill-mode: forwards;
 }
-@keyframes shake{
+/* @keyframes shake{
     0%{transform: translateY(-200px);
     visibility: visible;}
     100%{transform: translateY(0);
@@ -198,9 +198,56 @@ span{
         transform: translateY(-15px);
     }
 
+} */
+@keyframes shake {
+    0% {
+        transform: rotate(0deg);
+        visibility: visible;
+    }
+    10% {
+        transform: rotate(45deg);
+        visibility: visible;
+    }
+    20% {
+        transform: rotate(-45deg);
+        visibility: visible;
+    }
+    30% {
+        transform: rotate(30deg);
+        visibility: visible;
+    }
+    40% {
+        transform: rotate(-30deg);
+        visibility: visible;
+    }
+    50% {
+        transform: rotate(30deg);
+        visibility: visible;
+    }
+    60% {
+        transform: rotate(-30deg);
+        visibility: visible;
+    }
+    70% {
+        transform: rotate(15deg);
+        visibility: visible;
+    }
+    80% {
+        transform: rotate(-15deg);
+        visibility: visible;
+    }
+    90% {
+        transform: rotate(5deg);
+        visibility: visible;
+    }
+    100% {
+        transform: translateY(0);
+        visibility: visible;
+    }
+
 }
 .logo img{
-    width: 120%;
+    width: 110%;
 }
 #checking{
     display: none;
