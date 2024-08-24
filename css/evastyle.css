@@ -666,6 +666,9 @@ span{
 .teampara{
     padding-bottom: 20px;
 }
+.hide{
+    visibility: hidden;
+}
 /* ---------------------about page end here------------------------------- */
 /* ---------------------service page start here------------------------------- */
 .srbanner{
