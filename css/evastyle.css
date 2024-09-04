@@ -663,6 +663,10 @@ span{
     width: 70%;
     padding: 0 5px;
 }
+
+.team .stafficon{
+    width: 120%;
+}
 .teampara{
     padding-bottom: 20px;
 }
