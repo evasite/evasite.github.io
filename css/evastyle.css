@@ -1460,7 +1460,7 @@ span{
         background-size: 35%;
         padding-right: 50px;
         margin-top: -550px;
-        margin-left: 450px;
+        margin-left: 50px;
     }
 
     .hamcheck:checked~.navlist{
@@ -1848,7 +1848,7 @@ span{
         background-position: center;
         background-size: 35%;
         padding-right: 30px; /* Adjust padding */
-        margin-left: 0; /* Remove extra left margin */
+        margin-left: 120px; /* Remove extra left margin */
     }
 
     ul.navlist {}
@@ -2097,7 +2097,7 @@ span{
     }
     .about1 .abh2{
         text-align: center;
-    }
+    }it 
     .about1 .abp{
         text-align: center;
     }
