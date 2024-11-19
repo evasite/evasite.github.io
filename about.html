@@ -3,13 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" type="png" href="images/Fevicon.png">
+    <link rel="shortcut icon" type="image/png" href="images/Fevicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eva Ad Ventures</title>
-    <meta name="Description"
-        content="Discover our futuristic platform for outdoor advertising and join today's innovators who are shaping to be tomorrow's leaders in the industry. Learn more about us on the website" />
-    <meta name="Keyword" content="about, eva ad ventures, advertising" />
-    <meta name="author" content="Eva Ad Ventures" />
+    <meta name="description"
+        content="Discover our futuristic platform for outdoor advertising and join today's innovators who are shaping to be tomorrow's leaders in the industry. Learn more about us on the website">
+    <meta name="keywords" content="about, eva ad ventures, advertising">
+    <meta name="author" content="Eva Ad Ventures">
     <link rel="stylesheet" href="css/evastyle.css">
     <script src="js/animations.js" defer></script>
 </head>
@@ -41,7 +41,7 @@
         </div>
     </nav>
     <header class="abbanner">
-        <video autoplay loop muted plays-inline class="video">
+        <video autoplay loop muted playsinline class="video">
             <source src="videos/Red Bull 3D OOH - LA_2 (1).mp4" type="video/mp4">
         </video>
         <div class="container text-container">
@@ -393,7 +393,7 @@
 
             function type() {
                 if (currentIndex < text.length) {
-                    if (text.slice(currentIndex, currentIndex + wordToHighlight.length) === wordToHighlight) {
+                    if (text.startsWith(wordToHighlight, currentIndex)) {
                         headingElement.innerHTML += `<span id="highlight">${wordToHighlight}</span>`;
                         currentIndex += wordToHighlight.length;
                     } else {
